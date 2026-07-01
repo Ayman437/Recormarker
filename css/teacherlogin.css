@@ -1,0 +1,152 @@
+@import url('css2'); 
+
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: "Noto Sans Arabic", serif;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    float:  right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.navbar a.active {
+    float: left;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.content {
+    padding: 80px 20px;
+    text-align: center;
+    font-size: 24px;
+    width: 70%;
+}
+
+.login-box-admin-name input[type='password'] {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bold;
+    margin: 12px;
+    font-family: "Noto Sans Arabic", serif;
+}
+
+.login-box-admin-name input[type='text'] {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bold;
+    margin: 12px;
+    font-family: "Noto Sans Arabic", serif;
+}
+
+.submit-buton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Noto Sans Arabic", serif;
+}
+
+.back-buton {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Noto Sans Arabic", serif;
+}
+
+.back-buton:hover {
+    background-color: #575757;
+} 
+
+.submit-buton:hover {
+    background-color: #295a2a;
+} 
+
+.custom-radio {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none;
+    padding: 20px;
+    background-color: #c2c2c2;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.custom-radio:hover {
+    background-color: #838383;
+}
+
+.custom-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio-label {
+    margin-left: 10px;
+}

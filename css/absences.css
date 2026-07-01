@@ -1,0 +1,268 @@
+@import url('css2'); 
+
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: "Noto Sans Arabic", serif;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    float:  right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.navbar a.active {
+    float: left;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.subject {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    margin-top: -14px;
+    color: gray;
+}
+
+.content {
+    padding: 80px 20px;
+    text-align: center;
+    font-size: 24px;
+    width: 70%;
+}
+
+.login-box-admin-name input[type='password'] {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Noto Sans Arabic", serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.submit-buton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Noto Sans Arabic", serif;
+}
+
+.back-buton {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Noto Sans Arabic", serif;
+}
+
+.back-buton:hover {
+    background-color: #575757;
+} 
+
+.submit-buton:hover {
+    background-color: #295a2a;
+} 
+
+.smalltitle {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    margin-top: -14px;
+    color: gray;
+}
+
+.back-buton2 {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 25px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Noto Sans Arabic", serif;
+}
+
+select {
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.custom-radio {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 10px;
+    user-select: none;
+    padding: 5px 12px;
+    background-color: #c2c2c2;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.custom-radio:hover {
+    background-color: #838383;
+}
+
+.custom-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid gray;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #c2c2c2;
+}
+
+td {
+    font-weight: 510;
+}
+
+@media print {
+    table {
+        width: 100%; 
+    }
+
+    th, td {
+        border: 2px solid gray !important; 
+        color: black !important; 
+    }
+
+    th {
+        background-color: #c2c2c2 !important; 
+        -webkit-print-color-adjust: exact; 
+        print-color-adjust: exact; 
+    }
+
+    td {
+        font-weight: 510 !important;
+    }
+
+    .print-color {
+        -webkit-print-color-adjust: exact; 
+        print-color-adjust: exact; 
+        background-color: inherit !important; 
+    }
+
+    .custom-radio {
+        -webkit-print-color-adjust: exact; 
+        print-color-adjust: exact; 
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        font-size: 10px;
+        user-select: none;
+        padding: 5px 12px;
+        background-color: #c2c2c2 !important;
+        border-radius: 4px;
+        margin: 4px;
+    }
+}
+
+.divtable2 {
+    margin: 14px;
+}
+
+.schooldata{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.option-btn2 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Noto Sans Arabic", serif;
+    margin-top: 8px;
+}
+
+.option-btn2:hover {
+    background-color: #295a2a;
+}
+
+.option-btn2:active {
+    background-color: #21682a;
+}
