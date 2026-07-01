@@ -1,7 +1,7 @@
 ```
 Recormarker/
 ├── account/
-│   ├── absstudents.php            # Student attendance records
+│   ├── absstudents.php            # Supervisor dashboard
 │   └── teacher.php                # Teacher dashboard
 │
 ├── css/                           # Stylesheets
