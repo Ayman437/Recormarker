@@ -53,6 +53,7 @@ if(!$_COOKIE['pass'] || !$_COOKIE['name']){
 include '../inc-sdnfgDKS3JIah3HU/conn-kjfLJG5ysdbi4.php';
 if ($_GET['classId']){
     $classId = mysqli_real_escape_string($conn, (int)decrypt($_GET['classId']));
+    $conn->query("UPDATE classes SET numofst = (SELECT COUNT(*) FROM students WHERE class = '$classId') WHERE id = '$classId'");
     $sqlToCheckClass = "SELECT id, name, numofst FROM classes WHERE id = '$classId'";
     $resultToCheckClass = $conn->query($sqlToCheckClass);
 
