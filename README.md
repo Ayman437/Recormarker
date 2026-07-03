@@ -62,3 +62,32 @@ Recormarker English/
 ```
 
 ## Setup & Usage
+
+### Setting Up the PHP Web Application
+This project is a PHP web application and requires an Apache web server with PHP support.
+
+### Requirements
+- PHP.
+- Apache HTTP Server (or a package such as XAMPP, WAMP, or Laragon).
+- MySQL database.
+
+### Installation
+- To run the web application locally on your machine you need to install an Apache server with PHP support (e.g., XAMPP, WAMP, or Laragon).
+- Copy or clone the project into the web server's document root (for example, htdocs in XAMPP or www in WAMP).
+- Import the provided SQL database into your MySQL server.
+- Configure the database connection by editing the project's configuration file (if required).
+- Start the Apache and MySQL services.
+
+- Open your web browser and navigate to:
+
+- `http://localhost/<project-folder>/` or `http://localhost:<PORT>/<project-folder>/` (if using a custom port number).
+
+- Replace <project-folder> with the name of the project's directory and <PORT> with your Apache server port.
+
+### Notes
+- Ensure that both Apache and MySQL are running before accessing the web application.
+- If you are accessing the web application from another device on the same local network, replace localhost with the server computer's local IP address. For example:
+
+- `http://192.168.1.100/<project-folder>/`
+
+### How to Use
