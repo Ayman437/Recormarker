@@ -102,14 +102,13 @@ The following default accounts are available for first-time access to the web ap
 |----------|----------|
 | admin2 | admin2 |
 | root4 | root4 |
-
+</p>
 ### Default Teacher Accounts
 
 | Username | Password |
 |----------|----------|
 | alexMark12 | 12345678 |
 | MaxWell13 | xMaHIgrE |
-</p>
 
 <p align="center">
 <img width="960" height="370" alt="first page" src="https://github.com/user-attachments/assets/b3585faf-77c4-4e0d-90a9-095fc74d0595" />
