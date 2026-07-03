@@ -88,6 +88,68 @@ This project is a PHP web application and requires an Apache web server with PHP
 - Ensure that both Apache and MySQL are running before accessing the web application.
 - If you are accessing the web application from another device on the same local network, replace localhost with the server computer's local IP address. For example:
 
-- `http://192.168.1.100/<project-folder>/`
+- `http://192.168.1.7/<project-folder>/`
 
-### How to Use
+### Usage
+After accessing the web application, in the home page you can choose between logging in as a teacher or a supervisor, let's say you chose to log in as a supervisor, if this is your first time accessing the web application and did not edit the account information in the database, then there is default accounts in the database you can log in using them for the first time. 
+
+The following default accounts are available for first-time access to the web application:
+
+### Default Supervisor Accounts
+
+| Username | Password |
+|----------|----------|
+| root4 | admin2 |
+
+### Default Teacher Accounts
+
+| Username | Password |
+|----------|----------|
+| alexMark12 | 12345678 |
+| MaxWell13 | xMaHIgrE |
+
+<p align="center">
+<img width="960" height="370" alt="first page" src="https://github.com/user-attachments/assets/b3585faf-77c4-4e0d-90a9-095fc74d0595" />
+
+<img width="960" height="250" alt="admin login" src="https://github.com/user-attachments/assets/39385d14-ad3d-424b-afa7-66b9e1e7c61d" />
+</p>
+
+After logging in as a supervisor, you get full access to the management dashboard, if you log in as a teacher you get access to your account and you can record your class's attendance. 
+
+## Screenshots
+<p align="center">
+<img width="960" height="412" alt="dashboard1" src="https://github.com/user-attachments/assets/2a1b1487-8a48-4240-a54a-5306ebff7cc4" />
+
+<img width="960" height="441" alt="dashboard2" src="https://github.com/user-attachments/assets/8ad30b5a-ef4b-4789-b33b-dbae0391d342" />
+
+<img width="960" height="304" alt="dashboard 3" src="https://github.com/user-attachments/assets/bcb4bdd0-70df-4b7a-9edd-13658b1d0aaa" />
+
+<img width="960" height="272" alt="dashboard4" src="https://github.com/user-attachments/assets/433fd30d-820f-4bfc-b2c4-9a756c95af12" />
+
+<img width="960" height="473" alt="dashboard5" src="https://github.com/user-attachments/assets/2b593d15-7511-4389-b665-51aa2b64ca1a" />
+
+<img width="960" height="473" alt="dashborad6" src="https://github.com/user-attachments/assets/d3fdf7da-366f-44dd-b72f-e8d44842b4fb" />
+
+<img width="960" height="475" alt="dashboard7" src="https://github.com/user-attachments/assets/23fd9d36-47e1-4f21-a189-e98abf781a25" />
+
+<img width="655" height="433" alt="dashboard8" src="https://github.com/user-attachments/assets/84daaec9-0b71-4571-b3a5-570c3d91f4c8" />
+
+<img width="960" height="472" alt="dashboard9" src="https://github.com/user-attachments/assets/686fb0ca-1719-42fd-bf21-0558eb1d4cf9" />
+
+<img width="960" height="427" alt="dashboard10" src="https://github.com/user-attachments/assets/75998c41-0d50-491b-9164-995f4ecaf7d2" />
+
+<img width="960" height="453" alt="dashboard11" src="https://github.com/user-attachments/assets/d506b94a-d9ab-447b-9eda-759ba0a9de7b" />
+
+<img width="960" height="489" alt="dashboard 11" src="https://github.com/user-attachments/assets/e0397d9a-fb05-4d67-94b8-8a28f1b3bce7" />
+
+<img width="532" height="76" alt="dashboard12" src="https://github.com/user-attachments/assets/1fa64439-baa7-446a-92b3-8bce5cf71672" />
+</p>
+<p align="center">Database structure</p>
+<p align="center"><img width="730" height="481" alt="database" src="https://github.com/user-attachments/assets/4a1193f1-5514-4424-ad79-dcaf57acc95e" /></p>
+
+## Thanks for Visiting
+You've reached the end of the README!
+
+Thank you for taking the time to explore this project. I hope you enjoyed it, and I wish you success with your own projects.
+
+Happy coding! 🚀
