@@ -91,7 +91,7 @@ This project is a PHP web application and requires an Apache web server with PHP
 - `http://192.168.1.7/<project-folder>/`
 
 ### Usage
-After accessing the web application, in the home page you can choose between logging in as a teacher or a supervisor, let's say you chose to log in as a supervisor, if this is your first time accessing the web application and did not edit the account information in the database, then there is default accounts in the database you can log in using them for the first time. 
+After accessing the web application, in the home page you can choose between logging in as a teacher or a supervisor, let's say you chose to log in as a supervisor, if this is your first time accessing the web application and did not edit the accounts information in the database, then there is default accounts in the database you can log in using them for the first time. 
 
 The following default accounts are available for first-time access to the web application:
 
@@ -99,7 +99,8 @@ The following default accounts are available for first-time access to the web ap
 
 | Username | Password |
 |----------|----------|
-| root4 | admin2 |
+| admin2 | admin2 |
+| root4 | root4 |
 
 ### Default Teacher Accounts
 
