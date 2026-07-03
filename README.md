@@ -96,15 +96,12 @@ After accessing the web application, in the home page you can choose between log
 The following default accounts are available for first-time access to the web application:
 
 ### Default Supervisor Accounts
-
-<p align="center">
 | Username | Password |
 |----------|----------|
 | admin2 | admin2 |
 | root4 | root4 |
-</p>
-### Default Teacher Accounts
 
+### Default Teacher Accounts
 | Username | Password |
 |----------|----------|
 | alexMark12 | 12345678 |
