@@ -115,6 +115,27 @@ The following default accounts are available for first-time access to the web ap
 
 After logging in as a supervisor, you get full access to the management dashboard, if you log in as a teacher you get access to your account and you can record your class's attendance. 
 
+Note: By default, the application uses the Africa/Cairo time zone when recording timestamps. If you need to use a different time zone, update the following files:
+
+ **Note:** By default, the application uses the `Africa/Cairo` time zone when recording timestamps. If you need to use a different time zone, update the following files:
+
+ **`Recormarker/absence/take.php`**
+
+ Replace the following line on **lines 27** and **239**:
+
+ ```php
+ date_default_timezone_set('Africa/Cairo');
+ ```
+
+ with:
+
+ ```php
+ date_default_timezone_set('<your-time-zone>');
+ ```
+
+**`Recormarker/account/teacher.php`**
+Make the same change on **line 27**.
+
 ## Screenshots
 <p align="center">
 <img width="960" height="412" alt="dashboard1" src="https://github.com/user-attachments/assets/2a1b1487-8a48-4240-a54a-5306ebff7cc4" />
